@@ -1,0 +1,31 @@
+
+  .navbar .navbar-brand{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    background: #4AA09B;
+    padding: 1% 1% 1% 1%;
+    margin: -1% 2% -1% 5%;
+  }
+
+  .nav-item.dropdown.show{
+      background: lightgrey;
+  }
+ 
+  body{
+    background-color: lightgray;
+}
+
+
+.container-fluid{
+    padding-left: 4%;
+    padding-right: 4%;
+    }
+
+    #brandlogo {
+        color: #fff;
+        background: #4AA09B;
+        
+    }
+
+    
