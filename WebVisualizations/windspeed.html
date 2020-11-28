@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Latitude vs. Cloudiness</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e3f2fd;" >
+        <a class="navbar-brand ml-4"  href="index.html">Latitude<span class="sr-only">(current)</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                  <a class="dropdown-item" href="humidity.html">Humidity</a>
+                  <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                  <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item mr-4">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+<br>
+<br>
+
+
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-lg-7 my-5 mx-2 p-5">
+                    <h1 class="display-5 text-info">Latitude vs. Wind Speed (mph)</h1>
+                    <hr>
+                    <img src="ResourcesFig4.png" class="float-left mr-3 about-img img-responsive" width="100%" alt="Scatterplot of Latitude vs.Temperature">
+                    <p ><strong>Observations:</strong> The Latitude vs. Wind Speed scatterplot shows there is no correlation between wind speed and latitude. The vast majority of wind speed 
+                        is between 0-20 mph, with most falling in the 0-10 mph range. 
+                    </p>
+                </div>
+                <div class="col-lg-4 my-5 mx-2 p-5 align-self-start">
+                    <h1 class="display-5 text-info">Visualizations</h1>
+                    <hr>
+                    
+                    <a href="temperature.html"><img src="Resources/Fig1.png" class="img-responsive float-lg-left m-2 " width="41%" alt="Scatterplot of Latitude vs.Temperature"></a>
+                    
+                    <a href="humidity.html"><img src="Resources/Fig2.png" class="img-responsive float-lg-right m-2 " width="41%" alt="Scatterplot of Latitude vs.Temperature"></a>
+                    
+                    <a href="cloudiness.html"><img src="Resources/Fig3.png" class="img-responsive float-lg-left m-2 " width="41%" alt="Scatterplot of Latitude vs.Temperature"></a>
+                    
+                    <img src="Resources/Fig4.png" class="img-responsive float-lg-right m-2 border border-primary" width="41%" alt="Scatterplot of Latitude vs.Temperature">
+
+                </div>
+            </div>
+        </div>
+<br>
+<br>
+
+
+
+<!-- Footer -->
+<footer class="footer font-small">
+
+    <div class="footer-copyright text-center py-3">© 2020-2021 Copyright: Todd Tuchek, USC Coding Certificate Course 2020<br>
+        <a target="_blank" href="http://www.toddtuchek.com/"> Visit my personal website!</a>
+        </div>
+
+</footer>
+
+
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 
+</body>  
+</html>
