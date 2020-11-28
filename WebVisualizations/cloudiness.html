@@ -3,14 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Web-Design-Challenge: Todd Tuchek</title>
+  <title>Latitude vs. Cloudiness</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e3f2fd;" >
         <a class="navbar-brand ml-4"  href="index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -42,29 +41,24 @@
 
 <div class="container-fluid ">
     <div class="row">
-        <div class="col-lg-6 my-8 mx-2 p-5">
-            <h1 class="display-5 text-info">Summary: Latitude vs. X</h1>
+        <div class="col-lg-7 my-5 mx-2 p-5">
+            <h1 class="display-5 text-info">Latitude vs. Cloudiness %</h1>
             <hr>
-            <img src="Resources/Fig1.png" class="float-left mr-3 about-img img-responsive" width="40%" alt="Scatterplot of Latitude vs.Temperature">
-            <p ><strong>Purpose:</strong> Analyze how weather changes with respect to changes in Latitude.</p>
-            <p><strong>Methods:</strong> The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we firt pulled
-              data from the OpenWeatherMap API to assemble a dataset on over 500 cities. 
-
-              After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. 
-              
+            <img src="Resources/Fig3.png" class="float-left mr-3 about-img img-responsive" width="100%" alt="Scatterplot of Latitude vs.Temperature">
+            <p ><strong>Observations:</strong> The Latitude vs. Cloudiness plot does not seem to have any correlation to Latitude. There does seem to be a collection of points across all latitudes at either 0%, 75% or 100% cloud coverage. 
             </p>
         </div>
-        <div class="col-lg-5 my-8 mx-2 p-5">
+        <div class="col-lg-4 my-5 mx-2 p-5 align-self-start">
             <h1 class="display-5 text-info">Visualizations</h1>
             <hr>
             
-            <a target="_blank" href="Resources/Fig1.png"> <img src="Resources/Fig1.png" class="img-responsive float-lg-left m-2" width="44%" alt="Scatterplot of Latitude vs.Temperature"></a>
+            <a href="temperature.html"><img src="Resources/Fig1.png" class="img-responsive float-lg-left m-2 " width="41%" alt="Scatterplot of Latitude vs.Temperature"></a>
             
-            <a target="_blank" href="Resources/Fig2.png"> <img src="Resources/Fig2.png" class="img-responsive float-lg-right m-2" width="44%" alt="Scatterplot of Latitude vs.Temperature"></a>
+            <a href="humidity.html"><img src="Resources/Fig2.png" class="img-responsive float-lg-right m-2 " width="41%" alt="Scatterplot of Latitude vs.Temperature"></a>
             
-            <a target="_blank" href="Resources/Fig3.png"><img src="Resources/Fig3.png" class="img-responsive float-lg-left m-2" width="44%" alt="Scatterplot of Latitude vs.Temperature"></a>
+            <img src="Resources/Fig3.png" class="img-responsive float-lg-left m-2 border border-primary" width="41%" alt="Scatterplot of Latitude vs.Temperature">
             
-            <a target="_blank" href="Resources/Fig4.png"><img src="Resources/Fig4.png" class="img-responsive float-lg-right m-2" width="44%" alt="Scatterplot of Latitude vs.Temperature"></a>
+            <a href="windspeed.html"><img src="Resources/Fig4.png" class="img-responsive float-lg-right m-2" width="41%" alt="Scatterplot of Latitude vs.Temperature"></a>
 
         </div>
     </div>
@@ -72,15 +66,14 @@
 <br>
 <br>
 
-   <!-- Footer -->
-   <footer class="footer font-small">
+<!-- Footer -->
+<footer class="footer font-small">
 
     <div class="footer-copyright text-center py-3">© 2020-2021 Copyright: Todd Tuchek, USC Coding Certificate Course 2020<br>
-    <a target="_blank" href="http://www.toddtuchek.com/"> Visit my personal website!</a>
-    </div>
+        <a target="_blank" href="http://www.toddtuchek.com/"> Visit my personal website!</a>
+        </div>
 
 </footer>
-
 
 
 
@@ -94,5 +87,4 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
-
 </html>

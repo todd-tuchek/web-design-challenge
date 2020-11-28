@@ -27,5 +27,107 @@
         background: #4AA09B;
         
     }
-
+  
     
+
+    .col {
+      background-color: white;
+  }
+  .col-lg-4 {
+     background-color: white;
+     }
+
+     #img-repsonsive{
+       border-color:  #4AA09B;
+     }
+  .col-lg-5 {
+      background-color: white;
+  }
+  .col-lg-6 {
+      background-color: white;
+   }
+   .col-lg-7 {
+       background-color: white;
+   }
+.col-md-12 {
+    background-color: white;
+}
+.col-sm-12 {
+    background-color: white;
+}
+.img {
+    margin: 5px 5px 5px 5px;
+}
+.card {
+    border: none;
+}
+td {
+    word-break:break-all;
+}
+th {
+    word-break:break-all;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4AA09B;
+    color: white;
+    text-align: center;
+ }
+
+ @media screen and (max-width: 992px) {
+  /* start of large tablet styles */
+  .img-responsive {
+    min-width: 44%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* start of medium tablet styles */
+  /* Adding a fixed/percentage min-width could ensure that the image doesn't get too small */
+  .img-responsive {
+    min-width: 100%;
+  }
+  .navbar {
+      background-color: #4AA09B; !important;
+    }
+  .navbar-nav {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none;
+      background-color: white;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* start of phone styles */
+  /* It's possible to hide the image if the screen becomes too small */
+  .img-responsive {
+    min-width: 100%;
+  }
+  .navbar {
+      background-color: #4AA09B; !important;
+    }
+  .navbar-nav {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none;
+      background-color: white;
+  }
+  a#navbarDropdownMenuLink.nav-link.dropdown-toggle{
+      color: rgba(0,0,0,0.9);
+      background: gray;
+      padding: 8px 0px;
+  }
+}
